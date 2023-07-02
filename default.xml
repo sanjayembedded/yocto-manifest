@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <!-- remote servers to query -->
+  <remote name="openembedded"    alias="origin"  fetch="https://git.openembedded.org/" />
+  <remote name="yocto"           alias="origin"  fetch="https://git.yoctoproject.org/" />
+
+  <!-- YOCTO & OE -->
+
+  <!-- OpenEmbedded core layer and feature supportive layer -->
+  <project name="openembedded-core"    path="source/openembedded-core"    remote="openembedded"  revision="refs/heads/kirkstone"  upstream="kirkstone" />
+  <project name="meta-openembedded"    path="source/meta-openembedded"    remote="openembedded"  revision="refs/heads/kirkstone"  upstream="kirkstone" />
+
+  <!-- meta-virtualization -->
+  <project name="meta-virtualization"  path="source/meta-virtualization"  remote="yocto"  revision="refs/heads/kirkstone"  upstream="kirkstone"/>
+
+  <!-- Security layer -->
+  <project name="meta-security"        path="source/meta-security"        remote="yocto"  revision="refs/heads/kirkstone"  upstream="kirkstone"/>
+
+  <!-- SELinux layer -->
+  <project name="meta-selinux"         path="source/meta-selinux"         remote="yocto"  revision="refs/heads/kirkstone"  upstream="kirkstone"/>
+
+
+  <!-- BSPs -->
+
+  <!-- TI Vayu / Jacinto 6 / DRA7 -->
+  <project name="meta-arm"             path="bsp/meta-arm"                remote="yocto"  revision="refs/heads/kirkstone"  upstream="kirkstone"/>
+  <project name="meta-ti"              path="bsp/meta-ti"                 remote="yocto"  revision="refs/heads/kirkstone"  upstream="kirkstone"/>
+
+  <!-- Raspberry Pi 4 -->
+  <project name="meta-raspberrypi"     path="bsp/meta-raspberrypi"        remote="yocto"  revision="refs/heads/kirkstone"  upstream="kirkstone"/>
+
+</manifest>
