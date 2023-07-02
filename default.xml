@@ -11,6 +11,7 @@
   <!-- OpenEmbedded core layer and feature supportive layer -->
   <project name="openembedded-core"    path="source/openembedded-core"    remote="openembedded"  revision="refs/heads/kirkstone"  upstream="kirkstone" />
   <project name="meta-openembedded"    path="source/meta-openembedded"    remote="openembedded"  revision="refs/heads/kirkstone"  upstream="kirkstone" />
+  <project name="bitbake"              path="source/bitbake"              remote="openembedded"  revision="2.0" />
 
   <!-- meta-virtualization -->
   <project name="meta-virtualization"  path="source/meta-virtualization"  remote="yocto"  revision="refs/heads/kirkstone"  upstream="kirkstone"/>
