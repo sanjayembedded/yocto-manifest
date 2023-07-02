@@ -10,6 +10,7 @@
 
   <!-- OpenEmbedded core layer and feature supportive layer -->
   <project name="openembedded-core"    path="source/openembedded-core"    remote="openembedded"  revision="refs/heads/master"  upstream="master" />
+  <project name="bitbake"              path="source/bitbake"              remote="openembedded"  revision="refs/heads/master"  upstream="master" />
   <project name="meta-openembedded"    path="source/meta-openembedded"    remote="openembedded"  revision="refs/heads/master"  upstream="master" />
 
   <!-- meta-virtualization -->
