@@ -11,6 +11,7 @@
   <!-- OpenEmbedded core layer and feature supportive layer -->
   <project name="openembedded-core"    path="source/openembedded-core"    remote="openembedded"  revision="refs/heads/dunfell"  upstream="dunfell" />
   <project name="meta-openembedded"    path="source/meta-openembedded"    remote="openembedded"  revision="refs/heads/dunfell"  upstream="dunfell" />
+  <project name="bitbake"              path="source/bitbake"              remote="openembedded"  revision="1.46" />
 
   <!-- meta-virtualization -->
   <project name="meta-virtualization"  path="source/meta-virtualization"  remote="yocto"  revision="refs/heads/dunfell"  upstream="dunfell"/>
