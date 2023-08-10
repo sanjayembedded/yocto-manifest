@@ -44,7 +44,7 @@ $: bitbake <image recipe>
 ## Example:
 
 ```
-$: repo init -u https://github.com/sanjayembedded/yocto-manifest -b master
+$: repo init -u https://github.com/sanjayembedded/yocto-manifest -b mickledore
 $: repo sync
 $: source source/openembedded-core/oe-init-build-env build
 $: bitbake core-image-minimal
@@ -62,7 +62,7 @@ SSTATE_DIR = "${PATH_TO_SSTATE_CACHE}/"
 
 ## Enabling [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) check:
 
-The Yocto Project provides a [cve-check class](https://github.com/openembedded/openembedded-core/blob/master/meta/classes/cve-check.bbclass) which can be enabled to scan packages for public CVE’s. You can use this feature to scan individual packages but also on images (which will scan all packages included in that specific image).
+The Yocto Project provides a [cve-check class](https://github.com/openembedded/openembedded-core/blob/mickledore/meta/classes/cve-check.bbclass) which can be enabled to scan packages for public CVE’s. You can use this feature to scan individual packages but also on images (which will scan all packages included in that specific image).
 
 It utilizes the [NATIONAL VULNERABILITY DATABASE](https://nvd.nist.gov/), from which it performs the lookup.
 
