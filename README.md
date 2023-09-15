@@ -25,7 +25,7 @@ $: PATH=${PATH}:~/bin
 $: cd ${HOME}/${WORK_DIR}
 $: mkdir <release>
 $: cd <release>
-$: repo init -u https://github.com/sanjayembedded/yocto-manifest -b <branch name> [ -m <release manifest>]
+$: repo init -u https://github.com/sanjayembedded/yocto-manifest -b <branch_name> [ -m <release manifest>]
 $: repo sync
 ```
 
@@ -49,6 +49,9 @@ $: repo sync
 $: source source/openembedded-core/oe-init-build-env build
 $: bitbake core-image-minimal
 ```
+
+# Quick automation tool for SDK setup
+Download "https://github.com/sanjayembedded/scripts/yocto-setup.sh" and execute "source yocto-setup.sh -b <branch_name>" in Linux terminal.
 
 # Additional Information
 
