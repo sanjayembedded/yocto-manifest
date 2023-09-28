@@ -53,7 +53,7 @@ $: bitbake core-image-minimal
 # Quick automation tool for SDK setup
 Download [yocto-setup.sh](https://github.com/sanjayembedded/scripts/blob/master/yocto-setup.sh) and execute following command in Linux terminal:
 ```
-source yocto-setup.sh -b <branch_name>
+source yocto-setup.sh <branch_name>
 ```
 
 # Additional Information
